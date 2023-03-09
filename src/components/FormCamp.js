@@ -3,6 +3,7 @@ import "./FormCampStyles.css"
 import { collection, addDoc } from "firebase/firestore";
 import { db, storage } from "../firebaseConfig";
 import { ref,uploadBytes,getDownloadURL } from "firebase/storage";
+import paymentImg from "../Assets/paymentbanner.png"
 
 
 function FormCamp() {
@@ -79,7 +80,8 @@ function FormCamp() {
 
     return(
         <div className="form-container">
-            <h1>Summer Camp Registration</h1>
+            <h1>Registration Form</h1>
+            <p>We will be sending an email with all details within 24 hours of your registration. If you would like to contact us directly email us at: <br /><strong>hello@lusitanos.org</strong></p>
             <form onSubmit={handleSubmit}>
                 <label>Name</label>
                 <input placeholder="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} required/>
@@ -112,6 +114,11 @@ function FormCamp() {
                 <label>Guardian Phone</label>
                 <input placeholder="Guardian Phone" type="tel" value={guardianPhone} onChange={(e) => setGuardianPhone(e.target.value)} required/>
 
+                <h3>Please find the payment details bellow:</h3>
+                <div className="payment">
+                    <img src={paymentImg} alt="paymentdetails" />
+                </div>
+
                 <label>Payment Proof</label>
                 <div style={{marginBotton:'2rem','display':'flex', flexDirection:'column', 'width':'100%'}}>
                 <input placeholder="Payment Proof" accept="image/*" type="file" name="fileName" onChange={onFileChange} style={{'margin':'auto',textAlign:'center' , 'width':'100%' }} required/>
@@ -120,12 +127,7 @@ function FormCamp() {
                 <img src={proofURL} style={{ maxWidth:'300px', height:'auto', objectFit: 'cover', marginBotton:'2rem' }} alt="" />
                 </div>
 
-                <h3>Please find the payment details bellow:</h3>
-                <div className="payment">
-                    <img src="https://customercarecontacts.com/wp-content/uploads/2019/06/kasikorn-bank-logo.jpg" alt="paymentdetails" />
-                </div>
-
-                <textarea placeholder="Any information you would like us to know or be aware?" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                                <textarea placeholder="Any information you would like us to know or be aware?" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
 
                 <button type="submit">{submitLoading}</button>
 

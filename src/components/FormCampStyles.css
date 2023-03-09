@@ -4,11 +4,15 @@
 }
 
 .form-container form{
-    padding-top: 3rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     width: 50%;
     margin: auto;
+}
+
+.form-container p{
+    font-size: 8px;
 }
 
 .form-container input{
@@ -27,8 +31,21 @@
     border: 1px solid black;
 }
 
+.form-container h3{
+    padding-bottom: 1rem;
+}
+
+.payment{
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
 .form-container textarea{
     padding: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: .3rem;
     border: 1px solid black;
@@ -45,46 +62,6 @@
     background-color: black;
     color: #E5E5E5;
     cursor: pointer;    
-}
-
-.form-container button:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 4em;
-    left: 0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.5s;
-    box-shadow: 0 0 10px 40px red;
-}
-
-.form-container button:active:after {
-    box-shadow: 0 0 0 0 red;
-    position: absolute;
-    border-radius: 4em;
-    left: 0;
-    top:0;
-    opacity: 1;
-    transition: 0s;
-}
-
-.form-container button:active {
-    top: 1px;
-}
-
-.form-container h3{
-    padding-bottom: 1rem;
-}
-
-.payment{
-    padding-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
 }
 
 @media screen and (max-width: 850px) {

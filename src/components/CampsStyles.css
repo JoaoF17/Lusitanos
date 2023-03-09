@@ -15,6 +15,7 @@
 
 .c-card{
     width: 80%; /* if 3 32$ */
+    height: auto;
     text-align: start;
     box-shadow: 0 5px 25px 2px /* add color if needed */;
     /* border-radius: 7px; */
