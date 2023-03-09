@@ -48,7 +48,7 @@ function FormCamp() {
         const name = new Date().getTime() + file.name;
         console.log(name)
         const storageRef = ref(storage, 'payment_proof/'+name);
-        const upload = uploadBytes(storageRef, file).then((snapshot) => {
+        uploadBytes(storageRef, file).then((snapshot) => {
             console.log('Uploaded a blob or file!', snapshot);
         }).then(()=>{
             getDownloadURL(ref(storageRef)).then((url)=>{
