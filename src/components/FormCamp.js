@@ -114,7 +114,7 @@ function FormCamp() {
 
                 <label>Payment Proof</label>
                 <div style={{marginBotton:'2rem','display':'flex', flexDirection:'column', 'width':'100%'}}>
-                <input placeholder="Payment Proof" accept="image/*" type="file" name="fileName" onChange={onFileChange} style={{'margin':'auto',textAlign:'center' , 'width':'100%' }}/>
+                <input placeholder="Payment Proof" accept="image/*" type="file" name="fileName" onChange={onFileChange} style={{'margin':'auto',textAlign:'center' , 'width':'100%' }} required/>
                 {uploadLoading}</div>
                 <div style={{'display':'flex', justifyItems:'center', justifyContent:'center'}}>
                 <img src={proofURL} style={{ maxWidth:'300px', height:'auto', objectFit: 'cover', marginBotton:'2rem' }} alt="" />
