@@ -4,7 +4,10 @@ function Hero (props){
     return(
         <>
         <div className={props.cName}>
-            <img src={props.heroImg} alt="HeroImg" />
+            <div className="hero-div">
+            <div className="overlay"></div>
+            <img  src={props.heroImg} alt="HeroImg" />
+            </div>
 
             <div className="hero-text">
                 <h1>{props.title}</h1>
