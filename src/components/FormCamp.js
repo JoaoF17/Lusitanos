@@ -85,7 +85,7 @@ function FormCamp() {
                 <input placeholder="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} required/>
 
                 <label>Gender</label>
-                <select id="gender" name="gender" value={gender} onChange={(e) => setGender(e.target.value)} required style={{minHeight:'50px',marginBottom:'2rem'}}>
+                <select id="gender" name="gender" value={gender} onChange={(e) => setGender(e.target.value)} required>
                     <option defaultValue hidden value> -- select an option -- </option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
