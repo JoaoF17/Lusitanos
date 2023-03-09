@@ -12,8 +12,14 @@ function FormCamp() {
     const[dateOfBirth, setDateOfBirth] = useState("");
     const[nationality, setNationality] = useState("");
     const[kitSize, setKitSize] = useState("");
-    const[proofURL,setProofURL]=useState("");
-    const[submitLoading,setSubmitLoading]=useState('');
+    const[guardianName, setGuardianName] = useState("");
+    const[guardianRelation, setGuardianRelation] = useState("");
+    const[guardianEmail, setGuardianEmail] = useState("");
+    const[guardianPhone, setGuardianPhone] = useState("");
+    const[message, setMessage] = useState("");
+    const[proofURL,setProofURL] = useState("");
+    
+    const[submitLoading,setSubmitLoading]=useState('Submit');
     const[uploadLoading,setUploadLoading]=useState('');
 
     const handleSubmit = async(e) => {
@@ -25,7 +31,12 @@ function FormCamp() {
             dateOfBirth: dateOfBirth,
             nationality: nationality,
             kitSize: kitSize,
-            paymentProof: proofURL
+            guardianName: guardianName,
+            guardianRelation: guardianRelation,
+            guardianEmail: guardianEmail,
+            guardianPhone: guardianPhone,
+            message: message,
+            paymentProof: proofURL,            
             })
             .then(() => {
                 alert("Thank you for your registration, we have sucessfully received your details and will be in touch with you soon.")
@@ -40,6 +51,14 @@ function FormCamp() {
         setGender("");
         setDateOfBirth("");
         setNationality("");
+        setKitSize("");
+        setGuardianName("");
+        setGuardianRelation("");
+        setGuardianEmail("");
+        setGuardianPhone("");
+        setMessage("");
+        setProofURL("");
+        setSubmitLoading("Submit");
     };
 
     const onFileChange = (e) => {
@@ -79,19 +98,19 @@ function FormCamp() {
                 <input placeholder="Nationality" type="text" value={nationality} onChange={(e) => setNationality(e.target.value)} required/>
 
                 <label>Kit Size</label>
-                <input placeholder="Kit Size" type="text" value={kitSize} onChange={(e) => setKitSize(e.target.value)}/>
+                <input placeholder="Kit Size" type="text" value={kitSize} onChange={(e) => setKitSize(e.target.value)} required/>
 
                 <label>Guardian Name</label>
-                <input placeholder="Guardian Name" type="text" />
+                <input placeholder="Guardian Name" type="text" value={guardianName} onChange={(e) => setGuardianName(e.target.value)} required/>
 
                 <label>Guardian Relation</label>
-                <input placeholder="Guardian Relation" type="text" />
+                <input placeholder="Guardian Relation" type="text" value={guardianRelation} onChange={(e) => setGuardianRelation(e.target.value)} required/>
 
                 <label>Guardian Email</label>
-                <input placeholder="Guardian Email" type="email" />
+                <input placeholder="Guardian Email" type="email" value={guardianEmail} onChange={(e) => setGuardianEmail(e.target.value)} required/>
 
                 <label>Guardian Phone</label>
-                <input placeholder="Guardian Phone" type="tel" />
+                <input placeholder="Guardian Phone" type="tel" value={guardianPhone} onChange={(e) => setGuardianPhone(e.target.value)} required/>
 
                 <label>Payment Proof</label>
                 <div style={{marginBotton:'2rem','display':'flex', flexDirection:'column', 'width':'100%'}}>
@@ -100,16 +119,16 @@ function FormCamp() {
                 <div style={{'display':'flex', justifyItems:'center', justifyContent:'center'}}>
                 <img src={proofURL} style={{ maxWidth:'300px', height:'auto', objectFit: 'cover', marginBotton:'2rem' }} alt="" />
                 </div>
+
                 <h3>Please find the payment details bellow:</h3>
                 <div className="payment">
                     <img src="https://customercarecontacts.com/wp-content/uploads/2019/06/kasikorn-bank-logo.jpg" alt="paymentdetails" />
                 </div>
 
-                <textarea placeholder="Any information you would like us to know or be aware?" rows="10"></textarea>
+                <textarea placeholder="Any information you would like us to know or be aware?" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
 
-                <button type="submit">Submit</button>
+                <button type="submit">{submitLoading}</button>
 
-                {submitLoading}
             </form>
 
             
