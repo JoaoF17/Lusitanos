@@ -1,0 +1,37 @@
+.contact {
+    margin: 4rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 48%; /* if 3 32$ */
+    text-align: start;
+    box-shadow: 0 5px 25px 2px /* add color if needed */;
+    border-radius: 7px;
+    padding: 1rem .8rem;
+}
+
+.contact-details{
+    margin-top: 20%;
+    margin-left: 8%;
+}
+
+.contact-details h3{
+    font-size: 1.8rem;
+}
+
+.contact-image{
+    width: 50%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.contact-i{
+    width: auto;
+    height: 80%;
+    border-radius: 7px;
+}

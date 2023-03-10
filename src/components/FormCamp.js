@@ -8,6 +8,7 @@ import paymentImg from "../Assets/paymentbanner.png"
 
 function FormCamp() {
 
+    const[participation, setParticipation] = useState("");
     const[name, setName] = useState("");
     const[gender, setGender] = useState("");
     const[dateOfBirth, setDateOfBirth] = useState("");
@@ -27,6 +28,7 @@ function FormCamp() {
         e.preventDefault()
         setSubmitLoading('Submitting...')
         await addDoc(collection(db, "Songkran Camp 2023"), {
+            participation: participation,
             name: name,
             gender: gender,
             dateOfBirth: dateOfBirth,
@@ -48,6 +50,7 @@ function FormCamp() {
 
         setSubmitLoading('Submission Done')
 
+        setParticipation("");
         setName("");
         setGender("");
         setDateOfBirth("");
@@ -83,6 +86,15 @@ function FormCamp() {
             <h1>Registration Form</h1>
             <p>We will be sending an email with all details within 24 hours of your registration. If you would like to contact us directly email us at: <br /><strong>hello@lusitanos.org</strong></p>
             <form onSubmit={handleSubmit}>
+                <label>Please select in which week or how many sessions you wish to participate</label>
+                <select id="participation" name="participation" value={participation} onChange={(e) => setParticipation(e.target.value)} required>
+                    <option defaultValue hidden value> -- select an option -- </option>
+                    <option value="Week1">Week 1 (APR 10th - 15th) -- 8,000 ฿</option>
+                    <option value="Week2">Week 2 (APR 17th - 22th) -- 8,000 ฿</option>
+                    <option value="1xSession">1x Session -- 1,500 ฿</option>
+                    <option value="2xSessions">2x Sessions -- 3,000 ฿</option>
+                    <option value="3xSessions">3x Sessions -- 4,500 ฿</option>
+                </select>                
                 <label>Name</label>
                 <input placeholder="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} required/>
 

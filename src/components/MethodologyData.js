@@ -8,6 +8,8 @@ class MethodologyData extends Component{
                 <div className="des-text">
                     <h2>{this.props.heading}</h2>
                     <p>{this.props.text}</p>
+                    <h2>{this.props.heading1}</h2>
+                    <p>{this.props.text1}</p>
                 </div>
                 <div className="image">
                     <img src={this.props.img1} alt="Lusitanos" />

@@ -6,11 +6,17 @@
     font-size: 3rem;
 }
 
+.methodology p{
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
 .first-des{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
+    padding-bottom: 1rem;
 }
 
 .first-des-reverse{
@@ -28,7 +34,8 @@
 }
 
 .des-text h2{
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
 }
 
 .image{
