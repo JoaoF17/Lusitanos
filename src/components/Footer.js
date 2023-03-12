@@ -10,10 +10,10 @@ function Footer() {
             </div>
             <div className="right-side">
                 <a href=".">
-                    <i className="fa-brands fa-facebook-square"></i>
+                    <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a href=".">
-                    <i className="fa-brands fa-instagram-square"></i>
+                    <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a href=".">
                 <i class="fa-brands fa-tiktok"></i>
