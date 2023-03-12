@@ -3,7 +3,7 @@ import CampsData from "./CampsData";
 import img1 from "../../Assets/campflyer.jpeg"
 function Camps() {
     return (
-        <div className="camps">
+        <div className="camps" id="camp">
             <h1>Songkran Summer Camp</h1>
             <div className="campscard">
                 <CampsData 

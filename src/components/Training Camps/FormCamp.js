@@ -84,7 +84,7 @@ function FormCamp() {
     return(
         <div className="form-container">
             <h1>Registration Form</h1>
-            <p>We will be sending an email with all details within 24 hours of your registration. If you would like to contact us directly email us at: <br /><strong>hello@lusitanos.org</strong></p>
+            <p>We will be sending an email with all details within 24 hours of your registration. If you would like to contact us directly, email us at: <br /><strong>hello@lusitanos.org</strong></p>
             <form onSubmit={handleSubmit}>
                 <label>Please select in which week or how many sessions you wish to participate</label>
                 <select id="participation" name="participation" value={participation} onChange={(e) => setParticipation(e.target.value)} required>

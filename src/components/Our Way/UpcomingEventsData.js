@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom"; */
 import "./UpcomingEventsStyles.css"
+import { HashLink as Link } from 'react-router-hash-link';
 
 function UpcomingEventsData(props) {
     return (
