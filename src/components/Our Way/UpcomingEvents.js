@@ -11,6 +11,7 @@ function UpcomingEvents() {
                 image={img1}
                 heading = "Footbal Training Camp"
                 text = "Join us this Songkran for our summer camp."
+                url = "/camps"
                 />
                 {/* <UpcomingEventsData 
                 image={}
