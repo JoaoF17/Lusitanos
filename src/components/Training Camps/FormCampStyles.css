@@ -76,6 +76,7 @@
 
     .form-container select{
         height: 3rem;
+        width: 90%;
         padding: 0 1rem;
         margin-bottom: 2rem;
         border-radius: .3rem;
