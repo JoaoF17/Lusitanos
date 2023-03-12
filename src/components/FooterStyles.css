@@ -1,0 +1,41 @@
+.footer {
+    padding: 1rem 6rem;
+    background: black;
+    color: white;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top-left{
+    display: flex;
+    align-items: center;
+}
+
+.top img{
+    height: 8rem;
+    width: auto;
+}
+
+.top i{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.top i:hover {
+    color: burlywood;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.bottom p{
+    font-style: italic;
+}

@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutUs from "../components/About/AboutUs";
+import Footer from "../components/Footer";
 
 function About (){
     return(
@@ -16,6 +17,7 @@ function About (){
         btnClass="hide"
         />
         <AboutUs />
+        <Footer />
         </>
     );
 }

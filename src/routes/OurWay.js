@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Methodology from "../components/Our Way/Methodology";
 import Navbar from "../components/Navbar";
 import UpcomingEvents from "../components/Our Way/UpcomingEvents";
+import Footer from "../components/Footer";
 
 function OurWay (){
     return(
@@ -18,6 +19,7 @@ function OurWay (){
         />
         <Methodology />
         <UpcomingEvents />
+        <Footer />
         </>
     );
 }

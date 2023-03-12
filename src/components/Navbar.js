@@ -12,7 +12,7 @@ class Navbar extends Component {
         return (
             <nav className="NavbarItems">
                 {/* <h1 className="navbar-logo-text">Lusitanos</h1> */}
-                <img src="logo.png" alt="Lusitanos" className="navbar-logo"></img>
+                <img src="logo.png" alt="Lusitanos Logo" className="navbar-logo"></img>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>

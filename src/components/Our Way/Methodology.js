@@ -14,7 +14,7 @@ const Methodology = () =>{
                 heading1="Tactical Dimension"
                 text1="Tactical dimension is all about understanding the game of football and how to make the right decisions on the field. We teach our players how to read the game, anticipate movements, and work together as a team to achieve their goals."
                 img1="https://images.unsplash.com/photo-1622659097509-4d56de14539e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                img2="https://images.unsplash.com/photo-1570498839593-e565b39455fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                img2="https://images.unsplash.com/photo-1618073193718-23a66109f4e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
             />
 
             <MethodologyData
@@ -31,8 +31,8 @@ const Methodology = () =>{
                 className="first-des"
                 heading="Social Dimension"
                 text="Finally, social dimension is about developing important life skills such as teamwork, communication, and leadership. We believe that football is a team sport, and our players learn how to work together, support each other, and build strong relationships both on and off the field."
-                img1="https://images.unsplash.com/photo-1622659097509-4d56de14539e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                img2="https://images.unsplash.com/photo-1570498839593-e565b39455fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                img1="https://images.unsplash.com/photo-1570498839593-e565b39455fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                img2="https://images.unsplash.com/photo-1543351611-58f69d7c1781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
             />
 
             <p>At our football academy, we're passionate about developing well-rounded players who can excel both on and off the field. If you're ready to take your game to the next level, come join us and experience our unique approach to football training!</p>
