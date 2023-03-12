@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
-import Methodology from "../components/Methodology";
+import Methodology from "../components/Our Way/Methodology";
 import Navbar from "../components/Navbar";
-import UpcomingEvents from "../components/UpcomingEvents";
+import UpcomingEvents from "../components/Our Way/UpcomingEvents";
 
 function OurWay (){
     return(

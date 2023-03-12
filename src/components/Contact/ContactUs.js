@@ -1,6 +1,6 @@
 import "./ContactUsStyles.css";
-import line from "../Assets/ThiagoLine.jpeg"
-import email from "../Assets/email.png"
+import line from "../../Assets/ThiagoLine.jpeg"
+import email from "../../Assets/email.png"
 
 function ContactUs (){
     return(

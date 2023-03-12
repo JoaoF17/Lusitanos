@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import ContactUs from "../components/ContactUs";
+import ContactUs from "../components/Contact/ContactUs";
 
 function Contact (){
     return(

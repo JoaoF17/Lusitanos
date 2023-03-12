@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import CampImg from "../Assets/s.png"
-import Camps from "../components/Camps";
-import FormCamp from "../components/FormCamp";
+import Camps from "../components/Training Camps/Camps";
+import FormCamp from "../components/Training Camps/FormCamp";
 
 function TrainingCamps (){
     return(
