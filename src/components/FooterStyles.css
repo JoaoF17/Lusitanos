@@ -39,3 +39,21 @@
 .bottom p{
     font-style: italic;
 }
+
+@media screen and (max-width: 850px) {
+    .footer{
+        padding: 1rem 2rem;
+    }
+
+    .footer i{
+        margin: 0 2rem;
+    }
+
+    .top-right{
+        width: 100%;
+    }
+
+    .bottom{
+        padding-top: 1rem;
+    }
+}

@@ -32,7 +32,7 @@ const Methodology = () =>{
                 heading="Social Dimension"
                 text="Finally, social dimension is about developing important life skills such as teamwork, communication, and leadership. We believe that football is a team sport, and our players learn how to work together, support each other, and build strong relationships both on and off the field."
                 img1="https://images.unsplash.com/photo-1570498839593-e565b39455fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
-                img2="https://images.unsplash.com/photo-1543351611-58f69d7c1781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                img2="https://images.pexels.com/photos/8941571/pexels-photo-8941571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             />
 
             <p>At our football academy, we're passionate about developing well-rounded players who can excel both on and off the field. If you're ready to take your game to the next level, come join us and experience our unique approach to football training!</p>

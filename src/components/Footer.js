@@ -8,15 +8,15 @@ function Footer() {
                 <img src="logo.png" alt="Lusitanos Logo" className="logo" />
                 <p>Transform your game and elevate your skills with us.</p>
             </div>
-            <div className="right-side">
-                <a href=".">
+            <div className="top-right">
+                <a href="https://web.facebook.com/lusitanosbangkok" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a href=".">
                     <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a href=".">
-                <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-tiktok"></i>
                 </a>
             </div>
         </div>
