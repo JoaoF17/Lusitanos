@@ -12,7 +12,7 @@ function Footer() {
                 <a href="https://web.facebook.com/lusitanosbangkok" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-facebook"></i>
                 </a>
-                <a href=".">
+                <a href="https://www.instagram.com/lusitanosacademy/" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a href=".">
