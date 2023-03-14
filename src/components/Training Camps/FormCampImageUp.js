@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./FormCampStyles.css"
 import { collection, addDoc } from "firebase/firestore";
-import { db } from "../../firebaseConfig";
-/* import { ref,uploadBytes,getDownloadURL } from "firebase/storage"; */
-/* import paymentImg from "../../Assets/paymentbanner.png" */
+import { db, storage } from "../../firebaseConfig";
+import { ref,uploadBytes,getDownloadURL } from "firebase/storage";
+import paymentImg from "../../Assets/paymentbanner.png"
 
 
 function FormCamp() {
@@ -19,10 +19,10 @@ function FormCamp() {
     const[guardianEmail, setGuardianEmail] = useState("");
     const[guardianPhone, setGuardianPhone] = useState("");
     const[message, setMessage] = useState("");
-/*     const[proofURL,setProofURL] = useState(""); */
+    const[proofURL,setProofURL] = useState("");
     
     const[submitLoading,setSubmitLoading]=useState('Submit');
-    /* const[uploadLoading,setUploadLoading]=useState(''); */
+    const[uploadLoading,setUploadLoading]=useState('');
 
     const handleSubmit = async(e) => {
         e.preventDefault()
@@ -39,7 +39,7 @@ function FormCamp() {
             guardianEmail: guardianEmail,
             guardianPhone: guardianPhone,
             message: message,
-            /* paymentProof: proofURL,    */         
+            paymentProof: proofURL,            
             })
             .then(() => {
                 alert("Thank you for your registration, we have sucessfully received your details and will be in touch with you soon.")
@@ -61,11 +61,11 @@ function FormCamp() {
         setGuardianEmail("");
         setGuardianPhone("");
         setMessage("");
-        /* setProofURL(""); */
+        setProofURL("");
         setSubmitLoading("Submit");
     };
 
-    /* const onFileChange = (e) => {
+    const onFileChange = (e) => {
         setUploadLoading('Uploading Image...')
         const file = e.target.files[0]
         const name = new Date().getTime() + file.name;
@@ -79,7 +79,7 @@ function FormCamp() {
                 setUploadLoading('Image Uploaded')
             })
         });
-    } */
+    }
 
     return(
         <div className="form-container">
@@ -126,19 +126,19 @@ function FormCamp() {
                 <label>Guardian Phone</label>
                 <input placeholder="Guardian Phone" type="tel" value={guardianPhone} onChange={(e) => setGuardianPhone(e.target.value)} required/>
 
-                {/* <h3>Please find the payment details bellow:</h3>
+                <h3>Please find the payment details bellow:</h3>
                 <div className="payment">
                     <img src={paymentImg} alt="paymentdetails" />
-                </div> */}
+                </div>
 
-                {/* <label>Payment Proof</label>
+                <label>Payment Proof</label>
                 <div style={{marginBotton:'2rem','display':'flex', flexDirection:'column', 'width':'100%'}}>
                 <input placeholder="Payment Proof" accept="image/*" type="file" name="fileName" onChange={onFileChange} style={{'margin':'auto',textAlign:'center' , 'width':'100%' }} required/>
                 {uploadLoading}
                 </div>
                 <div style={{'display':'flex', justifyItems:'center', justifyContent:'center'}}>
                 <img src={proofURL} style={{ maxWidth:'300px', height:'auto', objectFit: 'cover', marginBotton:'2rem' }} alt="" />
-                </div> */}
+                </div>
 
                 <textarea placeholder="Any information you would like us to know or be aware of?" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
 
