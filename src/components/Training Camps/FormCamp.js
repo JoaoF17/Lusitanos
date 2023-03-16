@@ -140,7 +140,8 @@ function FormCamp() {
                 <img src={proofURL} style={{ maxWidth:'300px', height:'auto', objectFit: 'cover', marginBotton:'2rem' }} alt="" />
                 </div> */}
 
-                <textarea placeholder="Any information you would like us to know or be aware of?" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                <textarea placeholder=" Any information you would like us to know or be aware of?
+                Please let us know if the athlete has any food requirements or alergies." rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
 
                 <button type="submit">{submitLoading}</button>
 

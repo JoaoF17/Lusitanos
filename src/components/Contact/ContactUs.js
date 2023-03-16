@@ -23,6 +23,9 @@ function ContactUs (){
                 </div>
                 <div className="contact-i">
                     <img src={email} alt="Thiago Line" />
+                    {/* <a href="https://lin.ee/S2JiTN5">
+                        <img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="Lusitanos Line" height="36" border="0"/>
+                    </a> */}
                 </div>
             </div>
         </div>

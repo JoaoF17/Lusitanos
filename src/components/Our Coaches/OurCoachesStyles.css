@@ -1,0 +1,78 @@
+li{
+    padding-bottom: 0.5rem;
+}
+
+.ourcoaches{
+    margin: 4rem 6rem;
+}
+
+.coach{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    padding-bottom: 1rem;
+}
+
+.coach-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.description-text h2 {
+    padding-bottom: 0.5rem;
+}
+
+.description-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+    display:inline-block;
+}
+
+.paragraph{
+    text-align: justify;
+}
+
+.ul-left, .ul-right {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.lists{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    width: 48%;
+}
+
+.coach-image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.coach-image img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px /* #00000 (can give color to the shadow) */;
+}
+
+/* Move the 2nd image higher */
+.coach-image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}

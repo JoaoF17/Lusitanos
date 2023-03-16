@@ -12,6 +12,12 @@ export const MenuItems = [
         icon : "fa-solid fa-futbol"
     },
     {
+        title : "Our Coaches",
+        url : "/coaches",
+        cName : "nav-links",
+        icon : "fa-solid fa-person-running"
+    },
+    {
         title : "About",
         url : "/about",
         cName : "nav-links",
