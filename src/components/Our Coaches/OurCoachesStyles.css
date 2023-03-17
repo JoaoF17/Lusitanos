@@ -76,3 +76,36 @@ li{
     top: -10%;
     right: 0;
 }
+
+@media screen and (max-width: 850px){
+    .ourcoaches{
+        margin: 4rem 2rem;
+    }
+
+    .coach{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .coach-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4.5rem;
+    }
+
+    .description-text{
+        width: 100%;
+    }
+
+    .coach-image{
+        width: 100%;
+        margin:1.8rem 0;
+    }
+
+    .coach-image img{
+        height: 250px;
+    }
+}
