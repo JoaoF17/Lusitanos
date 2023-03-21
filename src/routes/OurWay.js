@@ -15,7 +15,7 @@ function OurWay (){
         text="Practice like a professional, with professionals."
         buttonText="Find out more."
         url="/"
-        btnClass="show"
+        btnClass="hide"
         />
         <Methodology />
         <UpcomingEvents />

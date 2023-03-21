@@ -17,7 +17,7 @@ function TrainingCamps (){
         text="From professional player to professional coaches, you will be learning with top athletes."
         buttonText="Check our next training camp."
         url="/"
-        btnClass="show"
+        btnClass="hide"
         />
         <Camps />
         {/* <FormCamp /> */}
