@@ -1,5 +1,5 @@
 .camps{
-    margin: 4rem 6rem;
+    margin: 2rem 6rem;
     color: black;
 }
 
@@ -14,17 +14,22 @@
 }
 
 .c-card{
-    width: 80%; /* if 3 32$ */
+    width: 50%; /* if 3 32$ */
     height: auto;
     text-align: start;
     box-shadow: 0 5px 25px 2px /* add color if needed */;
-    /* border-radius: 7px; */
-    cursor: pointer;
+    border-radius: 7px;
+    /* cursor: pointer; */
     padding: 1rem .8rem;
 }
 
 @media screen and (max-width: 850px) {
     .camps{
         margin: auto;
+    }
+
+    .c-card{
+        width: 80%;
+        padding: 0.5rem .5rem;
     }
 }

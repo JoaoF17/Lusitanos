@@ -2,8 +2,9 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import CampImg from "../Assets/s.png"
 import Camps from "../components/Training Camps/Camps";
-import FormCamp from "../components/Training Camps/FormCamp";
+/* import FormCamp from "../components/Training Camps/FormCamp"; */
 import Footer from "../components/Footer";
+import PopUp from "../components/Training Camps/FormCamp1";
 
 function TrainingCamps (){
     return(
@@ -19,7 +20,8 @@ function TrainingCamps (){
         btnClass="show"
         />
         <Camps />
-        <FormCamp />
+        {/* <FormCamp /> */}
+        <PopUp />
         <Footer />
         </>
     );

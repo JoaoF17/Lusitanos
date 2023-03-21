@@ -1,6 +1,6 @@
 import "./ContactUsStyles.css";
 import line from "../../Assets/ThiagoLine.jpeg"
-import email from "../../Assets/email.png"
+import lusitanosline from "../../Assets/LusitanosLine.jpeg"
 
 function ContactUs (){
     return(
@@ -18,11 +18,11 @@ function ContactUs (){
             </div>
             <div className="contact-container">
                 <div className="contact-details">
-                    <h3>Contact us via <br/> e-mail</h3>
-                    <p>hello@lusitanos.org</p>
+                    <p>Contact us via <br/> e-mail/Line</p>
+                    <h3>hello@lusitanos.org</h3>
                 </div>
                 <div className="contact-i">
-                    <img src={email} alt="Thiago Line" />
+                    <img src={lusitanosline} alt="Lusitanos Line" />
                     {/* <a href="https://lin.ee/S2JiTN5">
                         <img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="Lusitanos Line" height="36" border="0"/>
                     </a> */}

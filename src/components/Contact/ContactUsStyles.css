@@ -16,8 +16,8 @@
 }
 
 .contact-details{
-    margin-top: 20%;
-    margin-left: 8%;
+    margin-top: 15%;
+    margin-left: 7%;
 }
 
 .contact-details h3{
@@ -34,4 +34,5 @@
     width: auto;
     height: 80%;
     border-radius: 7px;
+    margin-top: 2rem;
 }
