@@ -97,7 +97,7 @@ function FormCamp1() {
             >
                 <DialogTitle className='title-form'>Registration Form</DialogTitle>
                 <DialogContent>
-                    <p className='text-form'>We will be sending an email with all details within 24 hours of your registration. If you would like to contact us directly, email us at: <br /><strong>hello@lusitanos.org</strong></p>
+                    <p className='text-form'>We will be sending an email with all the details before the camp starts. If you have any questions feel free to send us a message to <strong>@lusitanos</strong> in Line or email us at: <br /><strong>hello@lusitanos.org</strong></p>
                     
                     <Grid container xs={{ m:2 }} spacing={2}>
                         <Grid item xs={6}>
