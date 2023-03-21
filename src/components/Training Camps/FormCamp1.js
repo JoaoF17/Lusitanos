@@ -101,12 +101,12 @@ function FormCamp1() {
                     
                     <Grid container xs={{ m:2 }} spacing={2}>
                         <Grid item xs={6}>
-                            <TextField id="Name" label="Name" variant="outlined" value={name} onChange={(e) => setName(e.target.value)} /* sx={{ minWidth: 260 }} */ required/>
+                            <TextField id="Name" label="Name" variant="outlined" value={name} onChange={(e) => setName(e.target.value)} fullWidth required/>
                         </Grid>
 
                         <Grid item xs={6}>
                             <FormControl>
-                                <FormLabel id="gender" required>Gender</FormLabel>
+                                <FormLabel id="gender" fullWidth required>Gender</FormLabel>
                                 <RadioGroup
                                     row
                                     name="gender"
@@ -121,14 +121,14 @@ function FormCamp1() {
 
                         <Grid item xs={6}>
                             <LocalizationProvider dateAdapter={AdapterDayjs}>
-                                <FormControl sx={{ maxWidth: 220 }}>
+                                <FormControl fullWidth>
                                     <DatePicker value={dateOfBirth} label="Birth Date" onChange={(e) => setDateOfBirth(e)} disableFuture />
                                 </FormControl>
                             </LocalizationProvider>
                         </Grid>
 
                         <Grid item xs={6}>
-                            <FormControl sx={{ minWidth:220, maxWidth: 220 }}>
+                            <FormControl fullWidth>
                                 <InputLabel id="participation">Package</InputLabel>
                                 <Select id="participation" name="participation" value={participation} label="Package" onChange={(e) => setParticipation(e.target.value)} required>
                                     <MenuItem value="Week1">Week 1 (APR 10th - 15th) -- 8,000 ฿</MenuItem>
@@ -142,27 +142,27 @@ function FormCamp1() {
                         </Grid>
 
                         <Grid item xs={6}>
-                            <TextField id="Nationality" label="Nationality" variant="outlined" value={nationality} onChange={(e) => setNationality(e.target.value)} /* sx={{ minWidth: 260 }} */ required/>
+                            <TextField id="Nationality" label="Nationality" variant="outlined" value={nationality} onChange={(e) => setNationality(e.target.value)} fullWidth required/>
                         </Grid>
 
                         <Grid item xs={6}>
-                            <TextField id="kitSize" label="Kit Size" variant="outlined" value={kitSize} onChange={(e) => setKitSize(e.target.value)} /* sx={{ minWidth: 260 }} */ required/>
+                            <TextField id="kitSize" label="Kit Size" variant="outlined" value={kitSize} onChange={(e) => setKitSize(e.target.value)} fullWidth required/>
                         </Grid>
 
                         <Grid item xs={6}>
-                            <TextField id="guardianName" label="Guardian Name" variant="outlined" value={guardianName} onChange={(e) => setGuardianName(e.target.value)} required/>
+                            <TextField id="guardianName" label="Guardian Name" variant="outlined" value={guardianName} onChange={(e) => setGuardianName(e.target.value)} fullWidth required/>
                         </Grid>
 
                         <Grid item xs={6}>
-                            <TextField id="guardianRelation" label="Guardian Relation" variant="outlined" value={guardianRelation} onChange={(e) => setGuardianRelation(e.target.value)} required/>
+                            <TextField id="guardianRelation" label="Guardian Relation" variant="outlined" value={guardianRelation} onChange={(e) => setGuardianRelation(e.target.value)} fullWidth required/>
                         </Grid>
 
                         <Grid item xs={6}>
-                            <TextField id="guardianEmail" label="Guardian Email" variant="outlined" value={guardianEmail} onChange={(e) => setGuardianEmail(e.target.value)} required/>
+                            <TextField id="guardianEmail" label="Guardian Email" variant="outlined" value={guardianEmail} onChange={(e) => setGuardianEmail(e.target.value)} fullWidth required/>
                         </Grid>
 
                         <Grid item xs={6}>
-                            <TextField id="guardianPhone" label="Guardian Phone" variant="outlined" value={guardianPhone} onChange={(e) => setGuardianPhone(e.target.value)} required/>
+                            <TextField id="guardianPhone" label="Guardian Phone" variant="outlined" value={guardianPhone} onChange={(e) => setGuardianPhone(e.target.value)} fullWidth required/>
                         </Grid>
 
                         
