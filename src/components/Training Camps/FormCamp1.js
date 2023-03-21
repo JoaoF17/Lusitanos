@@ -32,7 +32,7 @@ function FormCamp1() {
         e.preventDefault();
         setSubmitLoading('Submitting...');
         const formatedDate = dateOfBirth.toDate();
-        await addDoc(collection(db, "Songkran Camp 2023 - test"), {
+        await addDoc(collection(db, "Songkran Camp 2023"), {
             participation: participation,
             name: name,
             gender: gender,
