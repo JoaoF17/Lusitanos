@@ -36,3 +36,26 @@
     border-radius: 7px;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 850px) {
+    .contact{
+        margin: .6rem .6rem;
+        flex-direction: column;
+        justify-content: space-around;
+        width:fit-content;
+    }
+
+    .contact-container {
+        width: fit-content;
+        margin: 0.5rem;
+    }
+
+    .contact-details h3{
+        font-size: 1rem;
+    }
+
+    .contact-details p{
+        font-size: 0.7rem;
+    }
+    
+}
