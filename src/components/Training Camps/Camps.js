@@ -1,6 +1,6 @@
 import "./CampsStyles.css";
 import CampsData from "./CampsData";
-import img1 from "../../Assets/campflyer.jpeg"
+import img1 from "../../Assets/campflyer1.jpg"
 function Camps() {
     return (
         <div className="camps" id="camp">

@@ -131,7 +131,7 @@ function FormCamp1() {
                             <FormControl fullWidth>
                                 <InputLabel id="participation">Package</InputLabel>
                                 <Select id="participation" name="participation" value={participation} label="Package" onChange={(e) => setParticipation(e.target.value)} required>
-                                    <MenuItem value="Week1">Week 1 (APR 10th - 15th) -- 8,000 ฿</MenuItem>
+                                    <MenuItem value="Week1">Week 1 (APR 10th - 15th) -- 6,500 ฿</MenuItem>
                                     {/* <MenuItem value="Week2">Week 2 (APR 17th - 22th) -- 8,000 ฿</MenuItem> */}
                                     {/* <MenuItem value="2Weeks">Both weeks (APR 10th - 22th) -- 15,000 ฿</MenuItem> */}
                                     <MenuItem value="1xSession">1x Session -- 1,500 ฿</MenuItem>
