@@ -1,7 +1,7 @@
 import "./CampsStyles.css";
 import CampsData from "./CampsData";
 import img1 from "../../Assets/campflyer.jpeg"
-import openday from "../../Assets/openday.jpg"
+import openday from "../../Assets/openday.jpeg"
 function Camps() {
     return (
         <div className="camps" id="camp">
