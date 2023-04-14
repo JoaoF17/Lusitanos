@@ -7,8 +7,22 @@
     font-size: 3rem;
 }
 
+.camps h2{
+    margin: 1rem;
+}
+
 .campscard{
-    margin-top: 3rem;
+    margin-top: 1rem;
+    display: block;
+    justify-content: center;
+}
+
+.ongoing{
+    display: flex;
+    justify-content: center;
+}
+
+.finished{
     display: flex;
     justify-content: center;
 }
@@ -18,9 +32,54 @@
     height: auto;
     text-align: start;
     box-shadow: 0 5px 25px 2px /* add color if needed */;
-    border-radius: 7px;
-    /* cursor: pointer; */
+    border-radius: 10px;
     padding: 1rem .8rem;
+    position: relative;
+}
+
+.c-card img{
+    transition: transform 0.5s;
+    border-radius: 10px;
+    object-fit: scale-down;
+}
+
+.layer{
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0,0,0,.5), #FCA311);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    pad: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.layer h4{
+    color: #E5E5E5;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.layer p{
+    color: #E5E5E5;
+    font-size: 35px;
+}
+
+.c-card:hover img{
+    transform: scale(1.02);
+    border-radius: 10px;
+}
+
+.c-card:hover .layer{
+    height: 100%;
 }
 
 @media screen and (max-width: 850px) {

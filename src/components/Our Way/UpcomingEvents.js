@@ -1,6 +1,6 @@
 import "./UpcomingEventsStyles.css";
 import UpcomingEventsData from "./UpcomingEventsData";
-import img1 from "../../Assets/campflyer.jpeg"
+import img1 from "../../Assets/openday.jpg"
 
 function UpcomingEvents() {
     return (
@@ -9,8 +9,8 @@ function UpcomingEvents() {
             <div className="upcomingeventscard">
                 <UpcomingEventsData 
                 image={img1}
-                heading = "Footbal Training Camp"
-                text = "Join us this Songkran for our summer camp."
+                heading = "Lusitanos Open Day"
+                text = "Join us on the 22nd of April for Lusitanos open day."
                 url = "/camps"
                 />
                 {/* <UpcomingEventsData 
