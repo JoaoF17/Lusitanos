@@ -9,7 +9,7 @@ function Footer() {
                 <p>Transform your game and elevate your skills with us.</p>
             </div>
             <div className="top-right">
-                <a href="https://web.facebook.com/lusitanosbangkok" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/lusitanosacademybangkok" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a href="https://www.instagram.com/lusitanosacademy/" target="_blank" rel="noopener noreferrer">
