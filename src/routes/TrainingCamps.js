@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import CampImg from "../Assets/s.png"
 import Camps from "../components/Training Camps/Camps";
 /* import FormCamp from "../components/Training Camps/FormCamp"; */
+import Sponsors from "../components/Sponsors";
 import Footer from "../components/Footer";
 
 function TrainingCamps (){
@@ -19,6 +20,7 @@ function TrainingCamps (){
         btnClass="hide"
         />
         <Camps />
+        <Sponsors />
         <Footer />
         </>
     );
