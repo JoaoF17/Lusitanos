@@ -52,7 +52,7 @@ function OurCoaches() {
                 li3="Head Footbal Coach at Sporting Clube de Portugal - Turcifal Academy"
                 list1Heading="Qualifications"
                 li5="Post Graduation - Technical Director of Football Academies at Lusofona University"
-                li6="Certification in Physical training in the Football context at Superior Institute of Educational Sciences"
+                li6="Bachelor Degree Sports Science - Major in Physical Education, Minor in Sports Training (Football) at Faculty of Human Kinetics - Technical University of Lisbon"
                 img1={Rui1}
                 img2={Rui2}
             />
