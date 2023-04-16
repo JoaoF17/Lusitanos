@@ -1,7 +1,7 @@
 import "./SponsorsStyles.css"
 import tops from "../Assets/tops.png"
 import gatorade from "../Assets/gatorade.png"
-import ari from "../Assets/Ari_football_logo.png"
+import ari from "../Assets/ari.png"
 
 import React from 'react'
 
