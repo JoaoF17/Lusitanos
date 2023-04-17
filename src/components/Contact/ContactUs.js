@@ -1,5 +1,4 @@
 import "./ContactUsStyles.css";
-import line from "../../Assets/ThiagoLine.jpeg"
 import lusitanosline from "../../Assets/LusitanosLine.jpeg"
 
 function ContactUs (){
