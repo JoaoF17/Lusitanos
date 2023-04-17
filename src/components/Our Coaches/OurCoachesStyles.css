@@ -20,6 +20,7 @@ li{
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
+    padding-bottom: 1rem;
 }
 
 .description-text h2 {
@@ -52,6 +53,8 @@ li{
 
 .column{
     width: 48%;
+    text-align: start;
+    
 }
 
 .coach-image{

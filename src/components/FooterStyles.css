@@ -22,6 +22,10 @@
     width: auto;
 }
 
+.top h1{
+    margin-left: 1rem;
+}
+
 .top i{
     color: white;
     font-size: 2rem;
@@ -29,7 +33,7 @@
 }
 
 .top i:hover {
-    color: burlywood;
+    color: #FCA311;
 }
 
 .bottom{

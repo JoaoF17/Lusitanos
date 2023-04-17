@@ -17,22 +17,24 @@
 
 .contact-details{
     margin-top: 15%;
-    margin-left: 7%;
+    margin-left: 5%;
 }
 
 .contact-details h3{
     font-size: 1.8rem;
+    margin-bottom: 2rem;
 }
 
-.contact-image{
-    width: 50%;
+.google-maps{
+    width: 60%;
     height: auto;
     border-radius: 7px;
+    margin-top: 2rem;
 }
 
 .contact-i{
-    width: auto;
-    height: 80%;
+    width: 60%;
+    height: auto;
     border-radius: 7px;
     margin-top: 2rem;
 }

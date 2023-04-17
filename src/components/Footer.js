@@ -9,14 +9,15 @@ function Footer() {
                 <p>Transform your game and elevate your skills with us.</p>
             </div>
             <div className="top-right">
+                <h1>Socials:</h1>
                 <a href="https://www.facebook.com/lusitanosacademybangkok" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a href="https://www.instagram.com/lusitanosacademy/" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-instagram"></i>
                 </a>
-                <a href=".">
-                    <i class="fa-brands fa-tiktok"></i>
+                <a href="https://lin.ee/S2JiTN5">
+                    <i class="fa-brands fa-line"></i>
                 </a>
             </div>
         </div>
