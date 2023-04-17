@@ -7,6 +7,8 @@ import Thiago1 from "../../Assets/Thiago1.jpeg";
 import Thiago3 from "../../Assets/Thiago3.jpeg";
 import Rui1 from "../../Assets/Rui1.jpeg";
 import Rui2 from "../../Assets/Rui2.jpeg";
+import Joao1 from "../../Assets/joao1.jpg";
+import Joao2 from "../../Assets/joao2.jpg";
 
 /* drop down */
 import Accordion from '@mui/material/Accordion';
@@ -53,7 +55,37 @@ function OurCoaches() {
 
             <OurCoachesData
                 className="coach-reverse"
-                heading="THIAGO MORA DE OLIVEIRA | HEAD COACH"
+                heading="RUI VITORINO | TECHNICAL DIRECTOR"
+                text="Introducing Rui, an experienced football coach with a passion for the game. With a career that started in Portugal and later took him to Asia, Rui has honed his skills and established himself as a respected coach with a wealth of experience. Today, Rui brings his expertise to the field, using his unique perspective and knowledge of the game to guide and inspire his players."
+                img1={Rui1}
+                img2={Rui2}
+            />
+            <Accordion>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+                >
+                <Typography style={{ fontWeight: "bold", fontSize: 20 }}>Experience & Qualifications</Typography>
+                </AccordionSummary>
+                <AccordionDetails style={{maxHeight: "400px", overflow: "auto"}}>
+                <Typography>
+                    <OurCoachesData
+                        listHeading="Experience as a Coach"
+                        li1="Shanghai school football league (ssfl) city elite team U11 boys head coach 2018/2020"
+                        li2="Head Footbal Coach at Shanghai Figo Football Academy 2015/2017"
+                        li3="Head Footbal Coach at Sporting Clube de Portugal - Turcifal Academy"
+                        list1Heading="Qualifications"
+                        li5="Post Graduation - Technical Director of Football Academies at Lusofona University"
+                        li6="Bachelor Degree Sports Science - Major in Physical Education, Minor in Sports Training (Football) at Faculty of Human Kinetics - Technical University of Lisbon"
+                    />
+                </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <OurCoachesData
+                className="coach"
+                heading="THIAGO MORA DE OLIVEIRA | COACH"
                 text="Meet Thiago, a former professional footballer who played for several years, including 11 years in Asia. Despite his successful career on the field, Thiago knew that he wanted to stay connected to the sport he loved. That's when he decided to shift his focus to coaching and started a new phase in his career. Today, Thiago is a highly respected football coach with a wealth of knowledge and experience to share."
                 img1={Thiago1}
                 img2={Thiago3}
@@ -82,11 +114,11 @@ function OurCoaches() {
             </Accordion>
 
             <OurCoachesData
-                className="coach"
-                heading="RUI VITORINO | HEAD COACH"
-                text="Introducing Rui, an experienced football coach with a passion for the game. With a career that started in Portugal and later took him to Asia, Rui has honed his skills and established himself as a respected coach with a wealth of experience. Today, Rui brings his expertise to the field, using his unique perspective and knowledge of the game to guide and inspire his players."
-                img1={Rui1}
-                img2={Rui2}
+                className="coach-reverse"
+                heading="JOAO FERNANDES | COACH"
+                text="Joao, a passionate football enthusiast who has dedicated over a decade to playing the beautiful game in his home country, Portugal. With his wealth of experience and expertise, he has transitioned into coaching and has spent the last three years sharing his knowledge with children. Joao's love for the sport is contagious, and he is committed to nurturing young talents and helping them develop their skills both on and off the pitch."
+                img1={Joao1}
+                img2={Joao2}
             />
             <Accordion>
                 <AccordionSummary
@@ -100,12 +132,10 @@ function OurCoaches() {
                 <Typography>
                     <OurCoachesData
                         listHeading="Experience as a Coach"
-                        li1="Shanghai school football league (ssfl) city elite team U11 boys head coach 2018/2020"
-                        li2="Head Footbal Coach at Shanghai Figo Football Academy 2015/2017"
-                        li3="Head Footbal Coach at Sporting Clube de Portugal - Turcifal Academy"
-                        list1Heading="Qualifications"
-                        li5="Post Graduation - Technical Director of Football Academies at Lusofona University"
-                        li6="Bachelor Degree Sports Science - Major in Physical Education, Minor in Sports Training (Football) at Faculty of Human Kinetics - Technical University of Lisbon"
+                        li1="Harrow Thailand 2019/2020"
+                        li2="Seixal 2013/2015"
+                        list1Heading="Experience as a Player"
+                        li5="Seixal FC."
                     />
                 </Typography>
                 </AccordionDetails>

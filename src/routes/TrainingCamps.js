@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import CampImg from "../Assets/s.png"
+import CampImg from "../Assets/s.jpg"
 import Camps from "../components/Training Camps/Camps";
 /* import FormCamp from "../components/Training Camps/FormCamp"; */
 import Sponsors from "../components/Sponsors";

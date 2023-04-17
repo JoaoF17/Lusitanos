@@ -7,16 +7,16 @@ function Camps() {
         <div className="camps" id="camp">
             <h1>Score Big with Lusitanos<br/> Join Today!</h1>
             <div className="campscard">
-                <h2>Enrollments are Open:</h2>
+                <h2>Enrollments are Open</h2>
                 <div className="ongoing">
                     <CampsData
                         campsimg={openday}
                         heading = "Click"
-                        text = "to join our line and get more info."
+                        text = "to join our Line and get more info."
                         url = "https://lin.ee/S2JiTN5"
                     />
                 </div>
-                <h2>Previous Events:</h2>
+                <h2>Previous Events</h2>
                 <div className="finished">
                     <CampsData 
                         campsimg={img1}
