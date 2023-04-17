@@ -52,7 +52,7 @@
     height: 350px;
     object-fit: cover;
     border-radius: 6px;
-    box-shadow: -1px 1px 62px -18px /* #00000 (can give color to the shadow) */;
+    /* box-shadow: -1px 1px 62px -18px #00000 (can give color to the shadow); */
 }
 
 /* Move the 2nd image higher */

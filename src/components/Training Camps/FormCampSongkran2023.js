@@ -81,7 +81,7 @@ function FormCamp1() {
             darker: '#053e85',
             },
             gold: {
-            main: '#FCA311',
+            main: '#F5C908',
             contrastText: '#fff',
             },
         },

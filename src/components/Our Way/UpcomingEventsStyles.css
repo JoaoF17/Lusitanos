@@ -16,7 +16,7 @@
 .t-card{
     width: 48%; /* if 3 32$ */
     text-align: start;
-    box-shadow: 0 5px 25px 2px /* add color if needed */;
+    /* box-shadow: 0 5px 25px 2px  *//* add color if needed */;
     /* border-radius: 7px; */
     cursor: pointer;
     padding: 1rem .8rem;
