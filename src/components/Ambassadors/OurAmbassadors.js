@@ -1,11 +1,12 @@
 import "./OurAmbassadorsStyles.css"
 import React from "react"
 import AmbassadorsData from "./OurAmbassadorsData"
-import Bas from "../../Assets/bas.png"
-import Thossawat from "../../Assets/thossawat.png"
-import Kampol from "../../Assets/kampol.png"
-import Heberty from "../../Assets/heberty.png"
-import Everton from "../../Assets/everton.png"
+import Bas from "../../Assets/bas.jpg"
+import Bihr from "../../Assets/bihr.jpg"
+import Thossawat from "../../Assets/thossawat.jpg"
+import Kampol from "../../Assets/kampol.jpg"
+import Heberty from "../../Assets/heberty.jpg"
+import Everton from "../../Assets/everton.jpg"
 
 
 function OurAmbassadors() {
@@ -34,7 +35,7 @@ function OurAmbassadors() {
                 className="ambassador"
                 ambassadorheading="MANUEL TOM BIHR | BANGKOK UNITED"
                 ambassadordescription="Manuel Tom Bihr is a professional footballer who plays as a centre-back for Thai League 1 club Bangkok United. Born in Germany, he plays for the Thailand national team."
-                img="https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/270442318_494883321969663_6163466648342707571_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG3KayXasc7XUZnM1PEP1rYLVvBKWUS2TEtW8EpZRLZMfySk1iidLqRkRd5eRN4b9k&_nc_ohc=DW5X56kS5jIAX-4NYro&_nc_ht=scontent.fbkk29-4.fna&oh=00_AfAUQIN438LvsXQ_E2OiIENDIPdJpXR1whbw3u7VXAe4NA&oe=6443FDE6"
+                img={Bihr}
             />
             <AmbassadorsData
                 className="ambassador-reverse"
