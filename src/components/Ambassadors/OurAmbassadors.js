@@ -39,7 +39,7 @@ function OurAmbassadors() {
             />
             <AmbassadorsData
                 className="ambassador-reverse"
-                ambassadorheading="KAMPOL PATHoMAKKAKUL | RATCHABURI F.C."
+                ambassadorheading="KAMPOL PATHOMAKKAKUL | RATCHABURI F.C."
                 ambassadordescription="Kampol Pathomakkakul is a Thai professional footballer who plays as an goalkeeper for Thai League 1 club Ratchaburi Mitr Phol and the Thailand national team."
                 img={Kampol}
             />
