@@ -9,6 +9,8 @@ import Rui1 from "../../Assets/Rui1.jpeg";
 import Rui2 from "../../Assets/Rui2.jpeg";
 import Joao1 from "../../Assets/joao1.jpg";
 import Joao2 from "../../Assets/joao2.jpg";
+import Valdir1 from "../../Assets/valdir.jpeg";
+import Valdir2 from "../../Assets/valdir2.jpeg";
 
 /* drop down */
 import Accordion from '@mui/material/Accordion';
@@ -115,6 +117,38 @@ function OurCoaches() {
 
             <OurCoachesData
                 className="coach-reverse"
+                heading="VALDIR BARDI | GOALKEEPER COACH"
+                text="Valdir is an experienced goalkeeper coach with a remarkable track record. Currently the Thai national team goalkeeper coach, he has coached teams in Thailand's top division and is the brilliant mind behind the innovative Voa Goleiro platform. Valdir's passion for developing exceptional goalkeepers is evident in his achievements and his commitment to revolutionizing training methods. Through Voa Goleiro he empowers aspiring goalkeepers globally, providing them with invaluable resources and a supportive community. Valdir's expertise and dedication have made him a true master of his craft, shaping the future of goalkeeping."
+                img1={Valdir1}
+                img2={Valdir2}
+            />
+            <Accordion>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+                >
+                <Typography style={{ fontWeight: "bold", fontSize: 20 }}>Experience & Qualifications</Typography>
+                </AccordionSummary>
+                <AccordionDetails style={{maxHeight: "400px", overflow: "auto"}}>
+                <Typography>
+                    <OurCoachesData
+                        listHeading="Experience as a Coach"
+                        li1="Thailand National Team Goalkeeper Coach 2023 - Current"
+                        li2="Madura United Goalkeeper coach 2022/2023"
+                        li3="Samut Prakan C. Goalkeeper coach 2018 - 2022/2023"
+                        li4="Bangkok Utd. Goalkeeper coach 2014 - 2017/2018"
+                        list1Heading="Qualifications"
+                        li5="AFC C Licence Football Coach"
+                        li6="ATFA B Licence Goalkeeper Coach"
+                        li7="Co-founder of Voa-Goleiro platform"
+                    />
+                </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <OurCoachesData
+                className="coach"
                 heading="JOAO FERNANDES | COACH"
                 text="Joao, a passionate football enthusiast who has dedicated over a decade to playing the beautiful game in his home country, Portugal. With his wealth of experience and expertise, he has transitioned into coaching and has spent the last three years sharing his knowledge with children. Joao's love for the sport is contagious, and he is committed to nurturing young talents and helping them develop their skills both on and off the pitch."
                 img1={Joao1}
@@ -140,6 +174,7 @@ function OurCoaches() {
                 </Typography>
                 </AccordionDetails>
             </Accordion>
+
         </div>
     )
 }

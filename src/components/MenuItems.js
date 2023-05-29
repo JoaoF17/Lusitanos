@@ -6,7 +6,7 @@ export const MenuItems = [
         icon : "fa-solid fa-house-user"
     },
     {
-        title : "Training Camps",
+        title : "Programs",
         url : "/camps",
         cName : "nav-links",
         icon : "fa-solid fa-futbol"

@@ -14,7 +14,7 @@ function TrainingCamps (){
         cName="hero"
         heroImg={CampImg}
         title="Come practice with the best"
-        text="From professional player to professional coaches, you will be learning with top athletes."
+        text="From professional players to professional coaches, you will be learning with top athletes."
         buttonText="Check our next training camp."
         url="/"
         btnClass="hide"

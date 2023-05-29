@@ -21,6 +21,7 @@ class OurCoachesData extends Component{
                             <li>{this.props.li1}</li>
                             <li>{this.props.li2}</li>
                             <li>{this.props.li3}</li>
+                            <li>{this.props.li4}</li>
                         </ul>
                     </div>
                     <div className="column">

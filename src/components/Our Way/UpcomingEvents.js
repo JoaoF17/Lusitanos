@@ -1,6 +1,6 @@
 import "./UpcomingEventsStyles.css";
 import UpcomingEventsData from "./UpcomingEventsData";
-import img1 from "../../Assets/openday.jpeg"
+import img1 from "../../Assets/campjuly.jpg"
 
 function UpcomingEvents() {
     return (

@@ -9,6 +9,29 @@
 
 .camps h2{
     margin: 1rem;
+    display: inline-block;
+    position: relative; 
+    /* border-bottom:1px solid #F5C908;
+    padding-bottom:3px; */
+}
+
+.camps h2:before,
+.camps h2:after {
+    content: "";
+    position: absolute;
+    height: 6px;
+    border-bottom: 3px solid #F5C908;
+    border-top: 3px solid #F5C908;
+    top: 0;
+    width: 100px;
+}
+.camps h2:before {
+    right: 100%;
+    margin:1rem
+}
+.camps h2:after {
+    left: 100%;
+    margin: 1rem;
 }
 
 .campscard{
@@ -28,7 +51,7 @@
 }
 
 .c-card{
-    width: 50%; /* if 3 32$ */
+    width: 32%; /* if 3 32$ */
     height: auto;
     text-align: start;
     box-shadow: 0 5px 25px 2px /* add color if needed */;
@@ -90,6 +113,21 @@
 
     .c-card{
         width: 80%;
-        padding: 0.5rem .5rem;
+        padding: 0.5rem 0.5rem;
+        margin: 1rem auto;
+        justify-content: center;
     }
+
+    .ongoing,
+    .finished {
+        display: block;
+        justify-content: center;
+    }
+
+    .camps h2:before,
+    .camps h2:after {
+        width: 50px;
+    }
+    
+    
 }
