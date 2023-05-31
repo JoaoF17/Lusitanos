@@ -5,7 +5,7 @@ import openday from "../../Assets/openday.jpeg"
 import individual from "../../Assets/individual.png"
 import schedule from "../../Assets/schedule.jpg"
 import campjuly from "../../Assets/campjuly.jpg"
-import goalkeeperindividual from "../../Assets/valdir.jpeg";
+import goalkeeperindividual from "../../Assets/goalkeeperindividual.jpg";
 import PopUp from "../PopUp/PopUp";
 
 function Camps() {
