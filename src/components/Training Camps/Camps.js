@@ -25,8 +25,8 @@ function Camps() {
                     />
                     <PopUp
                         popimg={campjuly}
-                        heading = "Click"
-                        text = "to join our Line and get more info."                        
+                        popheading = "Click"
+                        poptext = "for more info."                        
                         popimg1 = {campjuly1}
                     />  
                     <CampsData
