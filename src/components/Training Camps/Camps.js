@@ -4,7 +4,8 @@ import img1 from "../../Assets/campflyer.jpeg"
 import openday from "../../Assets/openday.jpeg"
 import individual from "../../Assets/individual.png"
 import schedule from "../../Assets/schedule.jpg"
-import campjuly from "../../Assets/campjuly.jpg"
+import campjuly from "../../Assets/campjuly.jpeg"
+import campjuly1 from "../../Assets/campjuly1.jpeg"
 import goalkeeperindividual from "../../Assets/goalkeeperindividual.jpg";
 import PopUp from "../PopUp/PopUp";
 
@@ -22,11 +23,11 @@ function Camps() {
                         poptext = "to see our schedule"
                         popimg1 = {schedule}
                     />
-                    <CampsData
-                        campsimg={campjuly}
+                    <PopUp
+                        popimg={campjuly}
                         heading = "Click"
                         text = "to join our Line and get more info."                        
-                        url = "https://lin.ee/S2JiTN5"
+                        popimg1 = {campjuly1}
                     />  
                     <CampsData
                         campsimg={individual}
