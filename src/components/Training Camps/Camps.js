@@ -3,10 +3,12 @@ import CampsData from "./CampsData";
 import img1 from "../../Assets/campflyer.jpeg"
 import openday from "../../Assets/openday.jpeg"
 import individual from "../../Assets/individual.png"
-import schedule from "../../Assets/schedule.jpg"
+import schedule from "../../Assets/schedule.jpeg"
 import campjuly from "../../Assets/campjuly.jpeg"
 import campjuly1 from "../../Assets/campjuly1.jpeg"
-import goalkeeperindividual from "../../Assets/goalkeeperindividual.jpg";
+import joinus from "../../Assets/joinus.jpeg"
+import u6pop from "../../Assets/sent.jpeg"
+import myis from "../../Assets/myis.jpeg"
 import PopUp from "../PopUp/PopUp";
 
 function Camps() {
@@ -18,17 +20,17 @@ function Camps() {
                 <h2>Join Today!</h2>
                 <div className="ongoing">
                     <PopUp
-                        popimg={schedule}
-                        popheading = "Click"
-                        poptext = "to see our schedule"
-                        popimg1 = {schedule}
-                    />
-                    <PopUp
-                        popimg={campjuly}
+                        popimg={joinus}
                         popheading = "Click"
                         poptext = "for more info."                        
-                        popimg1 = {campjuly1}
-                    />  
+                        popimg1 = {schedule}
+                    /> 
+                    <PopUp
+                        popimg={myis}
+                        popheading = "Click"
+                        poptext = "for more info."                        
+                        popimg1 = {u6pop}
+                    />   
                     <CampsData
                         campsimg={individual}
                         heading = "Click"
@@ -36,16 +38,29 @@ function Camps() {
                         url = "https://lin.ee/S2JiTN5"
                     />
                 </div>
-                <div className="ongoing1">
+                {/* If needed for a second row of card */}
+                {/* <div className="ongoing1">
+                    <CampsData
+                        campsimg={individual}
+                        heading = "Click"
+                        text = "to join our Line and get more info."
+                        url = "https://lin.ee/S2JiTN5"
+                    />
                     <CampsData
                         campsimg={goalkeeperindividual}
                         heading = "Click"
                         text = "to join our Line and get more info."
                         url = "https://lin.ee/S2JiTN5"
                     />
-                </div>
+                </div> */}
                 <h2>Previous Events</h2>
                 <div className="finished">
+                    <PopUp
+                        popimg={campjuly}
+                        popheading = "Click"
+                        poptext = "for more info."                        
+                        popimg1 = {campjuly1}
+                    />  
                     <CampsData 
                         campsimg={img1}
                         heading = "Click"

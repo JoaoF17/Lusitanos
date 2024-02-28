@@ -3,14 +3,14 @@ import "./OurCoachesData"
 import React from 'react'
 import OurCoachesData from "./OurCoachesData";
 import Mano3 from "../../Assets/Mano3.jfif";
-import Thiago1 from "../../Assets/Thiago1.jpeg";
+import Thiago1 from "../../Assets/thiago1.jpeg";
 import Thiago3 from "../../Assets/Thiago3.jpeg";
 import Rui1 from "../../Assets/Rui1.jpeg";
 import Rui2 from "../../Assets/Rui2.jpeg";
 import Joao1 from "../../Assets/joao1.jpg";
-import Joao2 from "../../Assets/joao2.jpg";
-import Valdir1 from "../../Assets/valdir.jpeg";
-import Valdir2 from "../../Assets/valdir2.jpeg";
+import Joao2 from "../../Assets/joao2.jpeg";
+import Renato1 from "../../Assets/renato1.jpeg";
+import Renato2 from "../../Assets/renato2.jpeg";
 
 /* drop down */
 import Accordion from '@mui/material/Accordion';
@@ -117,10 +117,10 @@ function OurCoaches() {
 
             <OurCoachesData
                 className="coach-reverse"
-                heading="VALDIR BARDI | GOALKEEPER COACH"
-                text="Valdir is an experienced goalkeeper coach with a remarkable track record. Currently the Thai national team goalkeeper coach, he has coached teams in Thailand's top division and is the brilliant mind behind the innovative Voa Goleiro platform. Valdir's passion for developing exceptional goalkeepers is evident in his achievements and his commitment to revolutionizing training methods. Through Voa Goleiro he empowers aspiring goalkeepers globally, providing them with invaluable resources and a supportive community. Valdir's expertise and dedication have made him a true master of his craft, shaping the future of goalkeeping."
-                img1={Valdir1}
-                img2={Valdir2}
+                heading="JOSE RENATO CARVALHO | COACH"
+                text="Meet Renato, a former professional footballer with a rich playing history in Austria and Switzerland. Now, as a dedicated coach, he's passionate about sharing his wealth of knowledge and love for the game with the next generation of football enthusiasts."
+                img1={Renato1}
+                img2={Renato2}
             />
             <Accordion>
                 <AccordionSummary
@@ -134,14 +134,13 @@ function OurCoaches() {
                 <Typography>
                     <OurCoachesData
                         listHeading="Experience as a Coach"
-                        li1="Thailand National Team Goalkeeper Coach 2023 - Current"
-                        li2="Madura United Goalkeeper coach 2022/2023"
+                        li1="Academy - Arsenal Soccer School"
+                        li2="The American International School Bankok"
                         li3="Samut Prakan C. Goalkeeper coach 2018 - 2022/2023"
-                        li4="Bangkok Utd. Goalkeeper coach 2014 - 2017/2018"
-                        list1Heading="Qualifications"
-                        li5="AFC C Licence Football Coach"
-                        li6="ATFA B Licence Goalkeeper Coach"
-                        li7="Co-founder of Voa-Goleiro platform"
+                        li4="Bangkok Patana"
+                        list1Heading="Experience as a Player"
+                        li5="Fc. Tirol - Austria"
+                        li6="Fc Lugano - Switzerland"
                     />
                 </Typography>
                 </AccordionDetails>

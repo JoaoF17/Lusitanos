@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import Methodology from "../components/Our Way/Methodology";
 import Navbar from "../components/Navbar";
-import UpcomingEvents from "../components/Our Way/UpcomingEvents";
+// import UpcomingEvents from "../components/Our Way/UpcomingEvents";
 import Sponsors from "../components/Sponsors";
 import Footer from "../components/Footer";
 import ourway from "../Assets/ourway.jpg"
@@ -20,7 +20,7 @@ function OurWay (){
         btnClass="hide"
         />
         <Methodology />
-        <UpcomingEvents />
+        {/* <UpcomingEvents /> */}
         <Sponsors />
         <Footer />
         </>

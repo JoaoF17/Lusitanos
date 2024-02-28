@@ -40,7 +40,7 @@
     justify-content: center;
 }
 
-.ongoing{
+.ongoing, .ongoing1 {
     display: flex;
     justify-content: center;
 }
@@ -119,6 +119,7 @@
     }
 
     .ongoing,
+    .ongoing1,
     .finished {
         display: block;
         justify-content: center;
