@@ -3,7 +3,7 @@ import "./OurCoachesData"
 import React from 'react'
 import OurCoachesData from "./OurCoachesData";
 import Mano3 from "../../Assets/Mano3.jfif";
-import Thiago1 from "../../Assets/thiago1.jpeg";
+import Thiago1 from "../../Assets/Thiago1.jpeg";
 import Thiago3 from "../../Assets/Thiago3.jpeg";
 import Rui1 from "../../Assets/Rui1.jpeg";
 import Rui2 from "../../Assets/Rui2.jpeg";
