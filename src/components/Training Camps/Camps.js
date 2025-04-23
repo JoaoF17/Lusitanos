@@ -3,10 +3,10 @@ import CampsData from "./CampsData";
 import img1 from "../../Assets/campflyer.jpeg"
 import openday from "../../Assets/openday.jpeg"
 import individual from "../../Assets/individual.png"
-import schedule from "../../Assets/schedule.jpeg"
+import faq from "../../Assets/faq.jpeg"
 import campjuly from "../../Assets/campjuly.jpeg"
 import campjuly1 from "../../Assets/campjuly1.jpeg"
-import joinus from "../../Assets/joinus.jpeg"
+import footballtour from "../../Assets/footballtour.jpeg"
 import u6pop from "../../Assets/sent.jpeg"
 import myis from "../../Assets/myis.jpeg"
 import PopUp from "../PopUp/PopUp";
@@ -20,10 +20,10 @@ function Camps() {
                 <h2>Join Today!</h2>
                 <div className="ongoing">
                     <PopUp
-                        popimg={joinus}
+                        popimg={footballtour}
                         popheading = "Click"
                         poptext = "for more info."                        
-                        popimg1 = {schedule}
+                        popimg1 = {faq}
                     /> 
                     <PopUp
                         popimg={myis}
